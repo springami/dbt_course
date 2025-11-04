@@ -1,2 +1,2 @@
 # dbt_course
-dbt_course1
+dbt_course2
