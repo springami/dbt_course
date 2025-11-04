@@ -1,4 +1,4 @@
-Welcome to your new dbt project!
+Welcome to your new dbt project for dbt course education!
 
 ### Using the starter project
 
