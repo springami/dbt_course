@@ -1,0 +1,34 @@
+sources:
+  - name: demo_src
+    description: Данные об авиаперелетах
+    database: dwh_flight
+    schema: demo_src
+    tables:
+      - name: aircrafts
+        description: Модели самолетов
+        columns:
+          - name: aircraft_code
+            description: Код модели самолета
+          - name: model
+            description: Модель самолета
+          - name: "range"
+            description: Размах крыльев
+      - name: aircrafts_data
+        description: Данные о самолетах
+      - name: airports
+        description: Аэропорты
+      - name: seats
+        description: Места в самолете
+        columns:
+          - name: aircraft_code
+            description: Код самолета
+          - name: seat_no
+            description: Номер места
+          - name: fare_conditions
+            description: Тариф
+      - name: bookings
+        description: Билеты на рейсы
+        columns:
+          - name: book_ref
+          - name: book_date
+          - name: total_amount
