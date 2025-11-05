@@ -1,6 +1,6 @@
 Welcome to your new dbt project for dbt course education!
 
-### Using the starter project
+### Using the starter project  ##
 
 Try running the following commands:
 - dbt run
